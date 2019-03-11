@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden {
+	display: none;
+}
+
+.container {
+	flex: 1 1 auto;
+	height: 447px;
+	background-color: #000;
+}
+
+.dndContainer {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 800px;
+
+}
