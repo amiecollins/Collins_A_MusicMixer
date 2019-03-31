@@ -34,8 +34,7 @@
 
 .songContainer {
 	max-width: 500px;
-	max-height: 343px;
-	margin-left: 33px;
+	height: 343px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -56,4 +55,38 @@
 	font-size: 20px;
 	color: #FFF;
 	flex: 1 1 auto;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 145px;
+	height: 35px;
+	margin-top: 20px;
+}
+
+.holder {
+	display: flex;
+	flex-direction: column;
+	height: 398px;
+	margin-left: 33px;
+}
+
+.play-button {
+	background-image: url(../images/play-button.svg);
+	width: 35px;
+	height: 35px;
+}
+
+.pause-button {
+	background-image: url(../images/pause-button.svg);
+	width: 35px;
+	height: 35px;
+}
+
+.stop-button {
+	background-image: url(../images/stop-button.svg);
+	width: 35px;
+	height: 35px;
 }
