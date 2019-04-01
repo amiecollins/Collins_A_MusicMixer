@@ -27,7 +27,7 @@
 	justify-content: space-between;
 }
 
-.music {
+.music, .song {
 	height: 100px;
 	width: 100px;
 }
