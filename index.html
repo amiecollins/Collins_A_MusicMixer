@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Music Mixer Assignment - Amie Collins</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1 class="hidden">Music Mixer</h1>
+	<div class="container">
+		<div class="dndContainer">
+			<section class="musicContainer">
+				<h2 class="hidden">Select your song</h2>
+				<img class="music" id="music1" src="images/icon-alphys.jpg" alt="music one" data-currenttrack="music/Alphys.flac">
+				<img class="music" id="music2" src="images/icon-flowey.jpg" alt="music two" data-currenttrack="music/Undertale.flac">
+				<img class="music" id="music3" src="images/icon-mettaton.jpg" alt="music three" data-currenttrack="music/For the Fans.flac">
+				<img class="music" id="music4" src="images/icon-papyrus.jpg" alt="music four" data-currenttrack="music/Dogsong.flac">
+				<img class="music" id="music5" src="images/icon-sans.jpg" alt="music five" data-currenttrack="music/sans..flac">
+				<img class="music" id="music6" src="images/icon-toriel.jpg" alt="music six" data-currenttrack="music/Home.flac">
+			</section>
+			<div class="holder">
+				<section class="songContainer">
+					<h2 class="hidden">Drag song here</h2>
+					<div class="player"><div class="song" id="song1"></div><h3 class="songTitle" id="songTitle1">
+						Song title goes here...
+						</h3>
+						<audio id="player1" src="assets/music/MEGALOVANIA.flac" loop></audio>
+					</div>
+						<div class="player"><div class="song" id="song2"></div><h3 class="songTitle" id="songTitle2">
+							Song title goes here...
+						</h3>
+						<audio id="player2" src="assets/music/MEGALOVANIA.flac" loop></audio>
+					</div>
+						<div class="player" ><div class="song" id="song3"></div><h3 class="songTitle" id="songTitle3">
+							Song title goes here...
+						</h3>
+						<audio id="player3" src="assets/music/MEGALOVANIA.flac" loop></audio>
+					</div>
+				</section>
+			<div class="controls"><div class="play-button"></div><div class="pause-button"></div><div class="stop-button"></div></div>
+		</div>
+		</div>
+
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

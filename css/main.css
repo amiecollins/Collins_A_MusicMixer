@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden {
+	display: none;
+}
+
+.container {
+	width: 800px;
+	height: 447px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+.dndContainer {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 auto;
+	padding: 25px 23px 0px 24px;
+}
+
+.musicContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 220px;
+	height: 350px;
+	justify-content: space-between;
+}
+
+.music, .song {
+	height: 100px;
+	width: 100px;
+}
+
+.songContainer {
+	max-width: 500px;
+	height: 343px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.player {
+	width: 500px;
+	max-height: 100px;
+	background-color: #111;
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 500px;
+}
+
+.songTitle {
+	margin: 37px 0px 35px 33px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	flex: 1 1 auto;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 145px;
+	height: 35px;
+	margin-top: 20px;
+}
+
+.holder {
+	display: flex;
+	flex-direction: column;
+	height: 398px;
+	margin-left: 33px;
+}
+
+.play-button {
+	background-image: url(../images/play-button.svg);
+	width: 35px;
+	height: 35px;
+}
+
+.pause-button {
+	background-image: url(../images/pause-button.svg);
+	width: 35px;
+	height: 35px;
+}
+
+.stop-button {
+	background-image: url(../images/stop-button.svg);
+	width: 35px;
+	height: 35px;
+}
